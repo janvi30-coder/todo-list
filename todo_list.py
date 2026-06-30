@@ -14,7 +14,7 @@ while True :
        for task in tasks :
          print(task)
     elif choice == 3 :      
-        number = int(input("Enter the task number to remove :"))
+        number = int(input("Enter the task index number to remove :"))
         tasks.pop(number)
         print(tasks)
     elif choice == 4:
